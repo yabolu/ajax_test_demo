@@ -40,7 +40,7 @@ function ajax(opts){
 var i = 1;
 
 loadMore.addEventListener('click', function(){
-  var url = '/page' + i + '.json';
+  var url = './page' + i + '.json';
 
   var onsuccess = function(result){
   	var ul = document.querySelector('.content-list');

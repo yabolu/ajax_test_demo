@@ -23,6 +23,7 @@ li:last-of-type {
 li:hover {
   background: green;
   color: #fff;
+  cursor: pointer;
 }
 
 .footer {

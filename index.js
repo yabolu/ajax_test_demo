@@ -21,7 +21,7 @@ function ajax(opts){
 	xhr.onload = function(){
 		if((xhr.status >= 200 && xhr.status < 300) || xhr.status === 304){
 			if(dataType === 'json'){
-				onsuccess(JSON.parse(xhr.resonseText));
+				onsuccess(JSON.parse(xhr.responseText));
 			}else{
 				onsuccess(xhr.responseText);
 			}

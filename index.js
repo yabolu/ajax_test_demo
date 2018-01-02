@@ -46,6 +46,7 @@ loadMore.addEventListener('click', function(){
   	var ul = document.querySelector('.content-list');
   	for(var i=0;i<result.length; i++){
   		var li = document.createElement('li');
+  		console.log(result[i]);
   		li.contentText = result[i];
   		ul.appendChild(li);
   	}
